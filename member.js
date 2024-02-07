@@ -1,7 +1,7 @@
-function skillsMembter() {
+function skillsMember() {
   return {
-    name: 'John',
-    age: 30,
-    skills: ['HTML', 'CSS', 'JS'],
+    name: 'skillsMember',
+    type: 'MemberExpression',
+    message: 'MemberExpression is not allowed',
   };
 }
